@@ -1,0 +1,11 @@
+Cython==0.29.13
+h5py==2.10.0
+joblib==0.14.1
+numpy==1.18.1
+opencv-python==4.2.0.34
+plyfile==0.7.2
+scipy==1.4.1
+tensorboardX==2.0
+torch==1.2.0
+tqdm==4.42.1
+trimesh==3.2.19

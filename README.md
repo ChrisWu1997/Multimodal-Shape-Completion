@@ -108,7 +108,7 @@ To evaluate the *quality* of the completed shape, we use the Minimal Matching Di
 
 ## Pre-trained models
 
-TBA.
+Pretrained model can be downloaded from [PKU disk](https://disk.pku.edu.cn:443/link/398E3D0C5ED9BF2BD55F9A21283815E0) or [Google Drive]()(TBA). Put the downloaded files into `proj_log` folder and then testing scripts shall be run directly. 
 
 
 
@@ -117,13 +117,12 @@ TBA.
 Please cite our work if you find it useful:
 
 ```
-@misc{wu2020multimodal,
-    title={Multimodal Shape Completion via Conditional Generative Adversarial Networks},
-    author={Rundi Wu and Xuelin Chen and Yixin Zhuang and Baoquan Chen},
-    year={2020},
-    eprint={2003.07717},
-    archivePrefix={arXiv},
-    primaryClass={cs.CV}
+@InProceedings{wu_2020_ECCV,
+author = {Wu, Rundi and Chen, Xuelin and Zhuang, Yixin and Chen, Baoquan},
+title = {Multimodal Shape Completion via Conditional Generative Adversarial Networks},
+booktitle = {The European Conference on Computer Vision (ECCV)},
+month = {August},
+year = {2020}
 }
 ```
 

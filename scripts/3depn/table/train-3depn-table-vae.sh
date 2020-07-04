@@ -8,5 +8,5 @@ python train.py --proj_dir proj_log \
                 --batch_size 200 \
                 --lr 5e-4 \
                 --save_frequency 500 \
-                --nr_epochs 2000 \
+                --nr_epochs 3000 \
                 -g 0

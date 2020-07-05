@@ -20,7 +20,7 @@ class EncoderPointNet(nn.Module):
                 bn_layer = nn.BatchNorm1d(nf)
                 model.append(bn_layer)
 
-            act_layer = nn.ReLU(inplace=True)
+            act_layer = nn.LeakyReLU(inplace=True)
             model.append(act_layer)
             prev_nf = nf
 
@@ -49,7 +49,7 @@ class DecoderFC(nn.Module):
                 bn_layer = nn.BatchNorm1d(nf)
                 model.append(bn_layer)
 
-            act_layer = nn.ReLU(inplace=True)
+            act_layer = nn.LeakyReLU(inplace=True)
             model.append(act_layer)
             prev_nf = nf
 

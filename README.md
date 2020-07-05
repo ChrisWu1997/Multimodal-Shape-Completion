@@ -92,7 +92,7 @@ The completion results, along with the input parital shape, will be saved in `pr
 
 ## Evaluation
 
-Evaluation code can be found in `evaluation` folder. To evaluate the completion *diversity* and *fidelity*:
+Evaluation code can be found in `evaluation` folder. To evaluate the completion *diversity* , *fidelity* and *quality*:
 
 ```bash
 cd evaluation/
@@ -100,9 +100,11 @@ cd evaluation/
 python total_mutual_diff.py --src {path-to-saved-testing-results}
 # calculate Unidirectional Hausdorff Distance (UHD) and completeness
 python completeness.py --src {path-to-saved-testing-results}
+# calculate Minimal Matching Distance (MMD), this requries a tensorflow environment
+python mmd.py --src {path-to-saved-testing-results} --dataset {which-dataset} --class_name {which-category} -g 0
 ```
 
-To evaluate the *quality* of the completed shape, we use the Minimal Matching Distance (MMD). Please use its original [code](https://github.com/optas/latent_3d_points/blob/master/src/evaluation_metrics.py) for the calculation.
+Note that MMD calculation requires an compiled `external` library from [here](https://github.com/optas/latent_3d_points).
 
 
 

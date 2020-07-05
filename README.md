@@ -38,7 +38,7 @@ We use three datasets in our paper.
 
 1. 3D-EPN
 
-   Please download the partial scan point cloud data from [their website](http://kaldir.vc.in.tum.de/adai/CNNComplete/shapenet_dim32_sdf_pc.zip) and extract it into `data` folder. For the complete point clouds data, please download it from [PKU disk](https://dev-rc.teamviewer.com/LogOn) and extract it into `data` folder. Or you can follow this [blender-render script](https://github.com/xuelin-chen/blender_renderer) to virtually scan ShapeNet objects by yourself.
+   Please download the partial scan point cloud data from [their website](http://kaldir.vc.in.tum.de/adai/CNNComplete/shapenet_dim32_sdf_pc.zip) and extract it into `data` folder. For the complete point clouds data, please download it from [PKU disk](https://disk.pku.edu.cn:443/link/9A3E1AC9FBA4DEBD705F028650CBE8C7) and extract it into `data` folder. Or you can follow this [blender-render script](https://github.com/xuelin-chen/blender_renderer) to virtually scan ShapeNet objects by yourself.
 
 2. PartNet
 

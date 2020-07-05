@@ -11,5 +11,5 @@ python train.py --proj_dir proj_log \
                 --batch_size 50 \
                 --lr 5e-4 \
                 --save_frequency 100 \
-                --nr_epochs 1000 \
+                --nr_epochs 500 \
                 -g 0

@@ -53,10 +53,7 @@ def process_one(data_id, merge_depth, class_name):
     id_map_dict = {}
     for i in ori_label_ids:
         node = root.query_node_by_id(i)
-        if class_name == "Chair" and node.text in ["Leg"]:
-            par_id = i
-        else:
-            par_id = node.query_parent_id(depth=depth)
+        par_id = node.query_parent_id(depth=depth)
         id_map_dict.update({str(i): par_id})
 
     pc_label_merge = [id_map_dict[str(i)] for i in pc_label_ori]

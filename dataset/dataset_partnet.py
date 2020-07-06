@@ -87,7 +87,12 @@ class GANdatasetPartNet(Dataset):
 
         self.data_root = data_root
 
-        self.shape_names = collect_data_id(SPLIT_DIR, category, phase)
+        shape_names = collect_data_id(SPLIT_DIR, category, phase)
+        self.shape_names = []
+        for name in shape_names:
+            path = os.path.join(PC_MERGED_LABEL_DIR, name)
+            if os.path.exists(path):
+                self.shape_names.append(name)
 
         self.n_pts = n_pts
         self.raw_n_pts = self.n_pts // 2

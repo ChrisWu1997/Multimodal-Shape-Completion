@@ -2,15 +2,14 @@
 
 This repository provides PyTorch implementation of our paper:
 
-[Multimodal Shape Completion via Conditional Generative Adversarial Networks](https://arxiv.org/abs/2003.07717)
+[Multimodal Shape Completion via Conditional Generative Adversarial Networks](https://chriswu1997.github.io/files/multimodal-pc/index.html)
 
-[Rundi Wu](https://chriswu1997.github.io)\*, [Xuelin Chen](https://xuelin-chen.github.io)\*, [Yixin Zhuang](http://www.yixin.io/), [Baoquan Chen](http://cfcs.pku.edu.cn/baoquan/)
+[Rundi Wu](https://chriswu1997.github.io)\*, [Xuelin Chen](https://xuelin-chen.github.io)\*, [Yixin Zhuang](http://www.yixin.io/), [Baoquan Chen](http://cfcs.pku.edu.cn/baoquan/) (\* equal contribution)
 
 ECCV 2020 (spotlight)
 
-<p align="center">
-  <img src='teaser.png' width=400>
-</p>
+![Overview](https://github.com/ChrisWu1997/Multimodal-Shape-Completion/blob/master/tease.png)
+
 
 ## Prerequisites
 

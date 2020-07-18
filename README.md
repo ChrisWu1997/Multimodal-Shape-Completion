@@ -44,7 +44,7 @@ We use three datasets in our paper.
    Please first download the [PartNet](https://www.shapenet.org/download/parts) dataset and then run our script to merge the point cloud segmentation label to the first level:
 
    ```bash
-   cd data/
+   cd data/partnet_process
    python pc_merge.py --src {your-path-to-PartNet-dataset}
    ```
 
@@ -52,7 +52,14 @@ We use three datasets in our paper.
 
 3. PartNet-Scan
 
-   TBA.
+   Please first download the [PartNet](https://www.shapenet.org/download/parts) dataset and then run our script to (1) create 4 parital mesh for each complete shape and (2) scan complete shape and parital mesh using blender.
+   
+   ```bash
+   cd data/partnet_process
+   sh gen_partnet_scan.sh {your-path-to-PartNet-dataset} {your-path-to-save-scanned-results}
+   ```
+   
+   Note that the scan process (blender render) may take a very long time and the outputs require quite a lot disk space. You can also increase the number of sub-process (default 10) to speed up.
 
 
 

@@ -34,7 +34,7 @@ parser.add_argument('--reso', type=int, default=640,
                     help='resolution')
 parser.add_argument('--nb_view', type=int, default=36,
                     help='number of views per model to render passes')
-parser.add_argument('--orth_scale', type=int, default=1,
+parser.add_argument('--orth_scale', type=int, default=2,
                     help='view scale of orthogonal camera')
 parser.add_argument('obj', type=str,
                     help='Path to the obj file to be rendered.')

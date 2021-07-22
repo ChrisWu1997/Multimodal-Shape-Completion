@@ -37,7 +37,7 @@ We use three datasets in our paper.
 
 1. 3D-EPN
 
-   Please download the partial scan point cloud data from [their website](http://kaldir.vc.in.tum.de/adai/CNNComplete/shapenet_dim32_sdf_pc.zip) and extract it into `data` folder. For the complete point clouds data, please download it from [PKU disk](https://disk.pku.edu.cn:443/link/9A3E1AC9FBA4DEBD705F028650CBE8C7) and extract it into `data` folder. Or you can follow this [blender-render script](https://github.com/xuelin-chen/blender_renderer) to virtually scan ShapeNet objects by yourself.
+   Please download the partial scan point cloud data from [their website](http://kaldir.vc.in.tum.de/adai/CNNComplete/shapenet_dim32_sdf_pc.zip) and extract it into `data` folder. For the complete point clouds data, please download it from [PKU disk](https://disk.pku.edu.cn/#/link/10DB3F94D4578FD9D4ADF026561E9F4C) and extract it into `data` folder. Or you can follow this [blender-render script](https://github.com/xuelin-chen/blender_renderer) to virtually scan ShapeNet objects by yourself.
 
 2. PartNet
 
@@ -116,7 +116,7 @@ Note that MMD calculation requires an compiled `external` library from [its orig
 
 ## Pre-trained models
 
-Pretrained model can be downloaded from [PKU disk](https://disk.pku.edu.cn:443/link/398E3D0C5ED9BF2BD55F9A21283815E0) or [Google Drive](https://drive.google.com/drive/folders/1OMifnRM8Ngf3mwNd7lkngQHdS64VPA-c?usp=sharing). Put the downloaded files into `proj_log` folder and then testing scripts shall be run directly. 
+Pretrained model can be downloaded from [PKU disk](https://disk.pku.edu.cn:443/link/7BE430260EDCA698CD19333C472A5295) or [Google Drive](https://drive.google.com/drive/folders/1OMifnRM8Ngf3mwNd7lkngQHdS64VPA-c?usp=sharing). Put the downloaded files into `proj_log` folder and then testing scripts shall be run directly. 
 
 
 

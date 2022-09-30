@@ -1,6 +1,6 @@
 Cython==0.29.13
 h5py==2.10.0
-joblib==0.14.1
+joblib==1.2.0
 numpy==1.18.1
 opencv-python==4.2.0.34
 plyfile==0.7.2

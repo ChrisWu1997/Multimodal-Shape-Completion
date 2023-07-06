@@ -4,7 +4,7 @@ joblib==1.2.0
 numpy==1.22.0
 opencv-python==4.2.0.34
 plyfile==0.7.2
-scipy==1.4.1
+scipy==1.10.0
 tensorboardX==2.0
 torch==1.2.0
 tqdm==4.42.1
